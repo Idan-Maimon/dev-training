@@ -1,0 +1,10 @@
+deploy1: 
+  ReplicaNumber: 1
+
+  containers:
+      containerPort: 8080
+      image: 'quay.io/argo-helm-workshop/workshop-app'
+      tag: 'chart_v2'
+
+  service:
+      servicePort: 8080
