@@ -7,7 +7,7 @@ dependencies:
     repository: "oci://ghcr.io/idan-maimon/helm"
     version: "1.0.0"
     alias: deploy1
-  - name: workshop-test
+  - name: imaymon
     repository: "oci://ghcr.io/idan-maimon/helm"
     version: 1.0.1
     alias: deploy2
