@@ -1,4 +1,4 @@
-kind: ConfigMap
+kind: Configmap
 apiVersion: v1
 metadata:
   name: '{{ .Chart.Name }}-html'
