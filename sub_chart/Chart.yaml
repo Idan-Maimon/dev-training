@@ -4,7 +4,7 @@ description: A Helm chart for Kubernetes
 type: application
 dependencies:
   - name: imaymon
-    repository: ghcr.io/idan-maimon/helm/
+    repository: http://ghcr.io/idan-maimon/helm/
     version: "1.0.0"
     alias: deploy1
 version: 1.0.0
