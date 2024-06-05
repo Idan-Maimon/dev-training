@@ -8,7 +8,7 @@ dependencies:
     version: "1.0.0"
     alias: deploy1
   - name: workshop-test
-    repository: "oci://ghcr.io/tal-hason/helm"
+    repository: "oci://ghcr.io/idan-maimon/helm"
     version: 1.0.1
     alias: deploy2
 version: 1.0.0
