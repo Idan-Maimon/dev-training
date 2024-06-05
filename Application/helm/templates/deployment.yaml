@@ -15,8 +15,16 @@ spec:
 # set your lab user name
         app: {{ .Chart.Name }}
     spec:
+      volumes:
+      - name: index-html
+        configMap:
+        name: '{{ .Chart.Name }}-html'
+        defaultMode: 420
       containers:
         - resources: {}
+          volumeMounts:
+          - name: index-html
+            mountPath: /tmp/html
           terminationMessagePath: /dev/termination-log
           name: {{ .Chart.Name }}
           ports:
