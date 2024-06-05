@@ -9,7 +9,7 @@ dependencies:
     alias: deploy1
   - name: imaymon
     repository: "oci://ghcr.io/idan-maimon/helm"
-    version: 1.0.1
+    version: 1.0.0
     alias: deploy2
 version: 1.0.0
 appVersion: "1.0.0"
