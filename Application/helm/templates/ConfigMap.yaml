@@ -4,4 +4,4 @@ metadata:
   name: '{{ .Chart.Name }}-html'
 immutable: false
 data:
-{{ (.Files.Glob "../src/html/*").AsConfig | indent 2 }}
+{{ (.Files.Glob "html/*").AsConfig | indent 2 }}
