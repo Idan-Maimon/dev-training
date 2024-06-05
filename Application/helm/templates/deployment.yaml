@@ -18,8 +18,8 @@ spec:
       volumes:
       - name: {{ .Chart.Name }}-html
         configMap:
-        name: '{{ .Chart.Name }}-html'
-        defaultMode: 420
+          name: '{{ .Chart.Name }}-html'
+          defaultMode: 420
       containers:
         - resources: {}
           volumeMounts:
